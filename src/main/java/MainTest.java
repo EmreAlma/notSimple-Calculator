@@ -26,7 +26,7 @@ class MainTest {
 
     @org.junit.jupiter.api.Test
     void divide() {
-        double result = 18 - 3;
+        double result = 18 / 3;
         double methodsResult = Main.divide(18,3);
         assertEquals(result, methodsResult);
     }
